@@ -1,23 +1,22 @@
- body {
-    font-family: Arial, sans-serif;
+body {
+    font-family: Arial;
     margin: 0;
-    background-color:red;
+    padding: 0;
+  background-color: antiquewhite;
 }
 
 header, nav, section, footer {
     padding: 20px;
     border-bottom: 1px solid #ddd;
-    .
+  text-align: center;
+  color:red;
+  
+  
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align:center;
-    Font-Family:fantasy;
-    
-    
-    
 }
 
 nav li {
@@ -41,10 +40,6 @@ footer {
     color: #888;
 }
 header{
-    color:red;
-    font-family:cursive;
-    font-width:50px;
-    text-align:center;
+  color:red;
+  font-family: cursive;
 }
-
-

@@ -299,3 +299,12 @@ function openLink(foodName) {
 
 // Add an event listener to the search input to update the list as the user types
 document.getElementById('searchInput').addEventListener('input', searchFood);
+document.querySelector("a.ham-icon").addEventListener("click", function(event){
+  document.getElementById("sideNavigation").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+});
+
+document.querySelector("a.close-btn").addEventListener("click", function(event){
+  document.getElementById("sideNavigation").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+});

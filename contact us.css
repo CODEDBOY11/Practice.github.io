@@ -1,105 +1,119 @@
-/* Define styles for the results container */
-#results {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    background-color: #f8f8f8;
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
-/* Define styles for the search results themselves */
-#results h2 {
-    font-size: 24px;
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #444;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style contact information section */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
     margin-bottom: 10px;
-    color: red;
 }
 
-#results p {
-    font-size: 16px;
-    margin: 5px 0;
-    color: red;
-    font-size: 30px;
-    font-family: courier new;
+ul {
+    list-style-type: none;
 }
 
-/* Style for when there are no matching results */
-#results p.no-results {
-    font-style: italic;
-    color: #888;
+li {
+    margin-bottom: 10px;
 }
 
-/* Styles for food items */
-.food-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 100px;
-    padding: 100px;
-    border: 1px solid #ccc;
-    background-color: #f8f8f8;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-/* Styles for food item images */
-.food-item img {
-    max-width: 100px;
-    max-height: 100px; /* Add this line to maintain the aspect ratio */
-}
-
-/* Styles for food item images within food-items */
-.food-items img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-h1 {
-    color: blue;
-    font-family: courier;
-    font-size: 50px;
-    text-align: center;
-}
-
-.food {
-    text-align: center;
-    width: 80%;
-}
-
-/* CSS rule for the search input */
-#searchInput {
-    padding: 10px; /* Adjust the padding as needed */
-    font-size: 16px; /* Adjust the font size as needed */
-    border: 1px solid #ccc; /* Add a border to the input field */
-    border-radius: 5px; /* Add some border radius for rounded corners */
-    width: 80%; /* Set the width to 80% of the screen */
-}
-
-/* CSS rule for the search button */
-button {
-    padding: 12px 20px; /* Adjust the padding to make the button larger */
-    font-size: 18px; /* Adjust the font size of the button */
-}
-
-/* CSS rule for the search button container */
-#searchButtonContainer {
-    width: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* CSS rule for the search button */
-button {
-    padding: 10px 10px; /* Adjust the padding to make the button larger */
-    font-size: 18px; /* Adjust the font size of the button */
-}
-
-/* Add this CSS rule to remove text decoration from links */
 a {
+    color: #007bff;
     text-decoration: none;
 }
-/* Center-align text within food items */
-.food-item p {
+
+/* Style the contact form */
+form {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
+    padding: 10px;
 }
 * {
   padding: 0;
