@@ -1,0 +1,103 @@
+/* Define styles for the results container */
+#results {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+/* Define styles for the search results themselves */
+#results h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+#results p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: red;
+    font-size: 30px;
+    font-family: courier new;
+}
+
+/* Style for when there are no matching results */
+#results p.no-results {
+    font-style: italic;
+    color: #888;
+}
+
+/* Styles for food items */
+.food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    padding: 100px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styles for food item images */
+.food-item img {
+    max-width: 100px;
+    max-height: 100px; /* Add this line to maintain the aspect ratio */
+}
+
+/* Styles for food item images within food-items */
+.food-items img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    color: blue;
+    font-family: courier;
+    font-size: 50px;
+    text-align: center;
+}
+
+.food {
+    text-align: center;
+    width: 80%;
+}
+
+/* CSS rule for the search input */
+#searchInput {
+    padding: 10px; /* Adjust the padding as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    border: 1px solid #ccc; /* Add a border to the input field */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    width: 80%; /* Set the width to 80% of the screen */
+}
+
+/* CSS rule for the search button */
+button {
+    padding: 12px 20px; /* Adjust the padding to make the button larger */
+    font-size: 18px; /* Adjust the font size of the button */
+}
+
+/* CSS rule for the search button container */
+#searchButtonContainer {
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS rule for the search button */
+button {
+    padding: 10px 10px; /* Adjust the padding to make the button larger */
+    font-size: 18px; /* Adjust the font size of the button */
+}
+
+/* Add this CSS rule to remove text decoration from links */
+a {
+    text-decoration: none;
+}
+/* Center-align text within food items */
+.food-item p {
+    text-align: center;
+}
