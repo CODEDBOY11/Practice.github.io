@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
   background-color: antiquewhite;
+  background-image:  url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTESkvyRUl4ozDdlpHgwNLhafdn2V4Lm56yFQ&usqp=CAU');
 }
 
 header, nav, section, footer {

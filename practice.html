@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <div class="header"></div>
-  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-  <label for="openSidebarMenu" class="sidebarIconToggle">
-    <div class="spinner diagonal part-1"></div>
-    <div class="spinner horizontal"></div>
-    <div class="spinner diagonal part-2"></div>
-  </label>
-  <div id="sidebarMenu">
-    <ul class="sidebarMenuInner">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="practice.html" target="_blank">Menu</a></li>
-      <li><a href="Contact us.html">contact us</a></li>
-      
-    </ul>
-  </div>
-  <div id='center' class="main center">
-    <div class="mainInner">
-      <div></div>
-    </div>
-    <div class="mainInner">
-      <div></div>
-    </div>
-    <div class="mainInner">
-      <div></div>
-    </div>
-  </div>
-  <link rel="stylesheet" href="practice.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8948631462141734"
-     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="practice.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8948631462141734"
+            crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="page">
+  <!-- Header Container (to be hidden) -->
+  <div class="header-container">
+    <header tabindex="0" >OUR MENU</header>
+    <div id="nav-container">
+      <div class="bg"></div>
+      <div class="button" tabindex="0">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </div>
+      <div id="nav-content" tabindex="0">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="practice.html">Menu</a></li>
+          <li><a href="contact us.html">Contact</a></li>
+          <li class="small"><a href="#0">Facebook</a><a href="#0">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </div><br>
     <h1>Our Menu</h1>
     <input type="text" id="searchInput" placeholder="Search for food...">
     <button onclick="searchFood()">Search</button>
     <div id="results"></div>
     <script src="practice.js"></script>
+  </div>
+</div>
+
+
 </body>
 </html>

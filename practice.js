@@ -244,7 +244,14 @@ const foodItems = [
         
 ];
 
-// Rest of your code remains the same...
+// Function to open a link in a new tab
+function openLink(foodName, link) {
+    // Open the link in a new tab or window
+    if (link) {
+        window.open(link, '_blank');
+    }
+}
+
 
 // Function to perform the food search
 function searchFood() {
@@ -297,14 +304,3 @@ function openLink(foodName) {
     }
 }
 
-// Add an event listener to the search input to update the list as the user types
-document.getElementById('searchInput').addEventListener('input', searchFood);
-document.querySelector("a.ham-icon").addEventListener("click", function(event){
-  document.getElementById("sideNavigation").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-});
-
-document.querySelector("a.close-btn").addEventListener("click", function(event){
-  document.getElementById("sideNavigation").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
-});
